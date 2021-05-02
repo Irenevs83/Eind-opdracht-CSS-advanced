@@ -1,0 +1,30 @@
+@charset "UTF-8";
+ul {
+  display: inline-block;
+}
+
+.fa-laptop-code::before {
+  margin-right: 0%;
+  background-color: #e17b77;
+  content: "";
+}
+
+.fa-twitter::before {
+  background-color: #3b5998;
+  content: "";
+}
+
+.fa-linkedin-in::before {
+  background-color: #00aced;
+  content: "";
+}
+
+.fa-facebook-f::before {
+  background-color: #333;
+  content: "";
+}
+
+.fa-github::before {
+  background-color: #007bb6;
+  content: "";
+}/*# sourceMappingURL=social.css.map */

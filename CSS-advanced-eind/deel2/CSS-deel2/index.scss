@@ -1,0 +1,52 @@
+@import "./social.scss";
+@import "./variables.scss";
+
+body{
+    background:#c3cfe2;
+    place-content:center
+  
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px;
+    gap: 20px;
+    position: relative;
+    margin: 20px;
+    max-width: 700px;
+
+    
+    &__photo {
+        @include photo;
+    }
+    &__overlay {
+        @include overlay;
+    }
+    &__overlay__button {
+        @include button;
+        }
+    &__img:hover {
+        @include overlay;
+        @include button;
+       opacity:1;
+    }
+}
+
+
+
+
+  
+
+@media screen and (min-width:700px) {
+    .grid {
+        display:grid;
+        grid-gap:20px;
+        grid-template-columns: 200px 200px ; 
+}
+}
+@media screen and (min-width:1024px) {
+    .grid {
+        display:grid;
+        grid-gap:20px;
+        grid-template-columns: 200px 200px 200px ; 
+}
+}

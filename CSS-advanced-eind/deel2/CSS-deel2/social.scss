@@ -1,0 +1,26 @@
+ul {
+    display:inline-block;
+    
+}
+
+.fa-laptop-code::before {
+    margin-right:0%;
+    background-color: #e17b77;
+    content: "\f5fc";
+}
+.fa-twitter::before {
+    background-color: #3b5998;
+    content: "\f099";
+}
+.fa-linkedin-in::before {
+    background-color: #00aced;
+    content: "\f0e1";
+}
+.fa-facebook-f::before {
+    background-color: #333;
+    content: "\f39e";
+}
+.fa-github::before {
+    background-color: #007bb6;
+    content: "\f09b";
+}

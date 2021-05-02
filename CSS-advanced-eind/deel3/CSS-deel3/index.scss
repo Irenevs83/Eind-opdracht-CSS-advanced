@@ -1,0 +1,116 @@
+@import "./variables.scss";
+
+body{
+    background:#c3cfe2;
+    place-content:center
+}
+
+
+
+.social{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    color: #fff;
+
+    &__icons li{
+        list-style-type: none;
+        text-align: left;
+        justify-content: center;
+        font-size: 16px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    &__icons--fa-laptop-code{
+        background-color: #e17b77;
+        @include icon-size;
+    }
+
+    &__icons--fa-laptop-code:hover{
+        right: 0px;
+        transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    }
+
+    &__icons--fa-laptop-code::before {
+        font-family: "Font Awesome 5 Free"; 
+        content: "\f5fc";
+        @include text;
+    }
+
+    &__icons--fa-twitter{
+        background-color: #00aced;
+        @include icon-size;
+    }
+    
+    &__icons--fa-twitter:hover{
+        right: 0px;
+        transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    
+    &__icons--fa-twitter::before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f099";
+        @include text;
+    }
+
+    &__icons--fa-linkedin-in{
+        background-color: #007bb6;
+        @include icon-size;
+    }
+        
+    &__icons--fa-linkedin-in:hover{
+        right: 0px;
+        transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+        
+    &__icons--fa-linkedin-in::before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f0e1";
+        @include text;
+    }
+
+    &__icons--fa-facebook-f{
+        background-color: #3b5998;
+        @include icon-size;
+    }
+
+    &__icons--fa-facebook-f:hover{
+        right: 0px;
+        transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+    &__icons--fa-facebook-f::before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f39e";
+        @include text;
+        }
+ 
+    &__icons--fa-github{
+        background-color: #333;
+        @include icon-size;
+    }
+
+    &__icons--fa-github:hover{
+        right: 0px;
+        transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+    &__icons--fa-github::before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f09b";
+        @include text;
+        }
+
+li a {
+        color:white;
+        } 
+
+
+}
